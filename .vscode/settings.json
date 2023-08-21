@@ -1,0 +1,5 @@
+{
+  "elixir.credo.strictMode": true,
+  "elixir.credo.lintEverything": true,
+  "editor.formatOnType": true
+}

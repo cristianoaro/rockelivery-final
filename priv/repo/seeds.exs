@@ -16,7 +16,7 @@ alias Rockelivery.Repo
 alias Rockelivery.User
 
 user = %User{
-  cpf: "12345678902",
+  cpf: "12345678988",
   email: "testew@teste.com",
   name: "Teste 01",
   address: "Rua dos testes",

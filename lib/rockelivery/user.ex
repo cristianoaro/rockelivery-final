@@ -29,7 +29,6 @@ defmodule Rockelivery.User do
 
   def build(params) do
     params
-    |> changeset()
     |> apply_action(:insert)
   end
 

@@ -38,8 +38,8 @@ defmodule Rockelivery.User do
     |> validate_length(:cpf, is: 11)
     |> validate_number(:age, greater_than_or_equal_to: 18)
     |> validate_format(:email, ~r/@/)
-    |> unique_constraint([:cpf])
-    |> unique_constraint([:email])
+    |> unique_constraint(:cpf)
+    |> unique_constraint(:email)
     |> put_password_hash()
   end
 

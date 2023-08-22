@@ -16,13 +16,13 @@ alias Rockelivery.Repo
 alias Rockelivery.User
 
 user = %User{
+  age: 28,
+  address: "Rua dos testes",
+  cep: "06727000"
   cpf: "12345678988",
   email: "testew@teste.com",
-  name: "Teste 01",
-  address: "Rua dos testes",
   password: "123456",
-  age: 28,
-  cep: "06727000"
+  name: "Teste 01",
 }
 
 %User{id: user_id} = Repo.insert!(user)
